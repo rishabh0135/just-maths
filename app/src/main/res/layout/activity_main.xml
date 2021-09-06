@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Just Maths"
+        android:textSize="45sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"/>
+
+    <ImageButton
+        android:id="@+id/img1S"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_share_64"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="85dp"
+        android:background="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/img2P"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_play_circle_filled_64"
+        android:layout_marginTop="450dp"
+        android:paddingHorizontal="12dp"
+        android:background="@android:color/transparent"
+        android:layout_toRightOf="@+id/img1S" />
+
+    <ImageButton
+        android:id="@+id/img3R"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_stars_64"
+        android:layout_marginTop="450dp"
+        android:background="@android:color/transparent"
+        android:layout_toRightOf="@+id/img2P"/>
+
+
+
+</RelativeLayout>
